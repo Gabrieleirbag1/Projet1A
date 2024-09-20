@@ -1,8 +1,6 @@
 # SQUARE GAME
 ## Description
 
-Add a [Markdown Reader extension](https://chromewebstore.google.com/detail/markdown-reader/medapdbncneneejhbgcjceippjlfkmkg?hl=en) to read the Readme on svn.
-
 This project is a network game with a graphical interface using GTK. The game allows two players to connect via a local network or play in local mode. The project includes server and client functionalities, as well as log management for debugging.
 
 ## Features
@@ -25,7 +23,7 @@ This project is a network game with a graphical interface using GTK. The game al
 Clone the repository:
 
 ```sh
-svn checkout https://svn.ensisa.uha.fr/scm/svn/imm2425-gr3
+git clone https://github.com/Gabrieleirbag1/Square-Game.git
 ```
 
 Compile the project using make:
