@@ -1,0 +1,79 @@
+.button-broken {
+    background: rgb(153, 153, 153);
+}
+
+.button-hover{background:rgb(81, 121, 255)}
+
+.main-window {
+    background: linear-gradient(180deg, rgb(255, 218, 218) 0%, rgb(241, 187, 236) 100%);
+    font-size: 15pt;
+}
+
+.rules-button {
+    border-width: 3px;
+    border-radius: 12px;
+    border: 3px solid #a7954f;
+    border-bottom: 6px double #a7954f;
+    border-right: 6px double #a7954f;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.restart-button {
+    border-width: 3px;
+    border-radius: 12px;
+    border: 3px solid #a7954f;
+    border-bottom: 6px double #a7954f;
+    border-right: 6px double #a7954f;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.row-label {
+    margin-left: 10px;
+}
+
+.last-move {
+    background: rgb(255, 151, 151); /* Couleur rouge pour le dernier coup */
+}
+@keyframes dubstepTitle {
+    0% {
+        color: red;
+        font-size: 70px;
+    }
+    25% {
+        color: green;
+        font-size: 110px;
+    }
+    40% {
+        color: pink;
+        font-size: 90px;
+    }
+    65% {
+        color: blue;
+        font-size: 60px;
+    }
+    85% {
+        color: red;
+        font-size: 150px;
+    }
+    100% {
+        color: red;  /* Couleur finale */
+        font-size: 70px;  /* Retour à 70px */
+    }
+}
+
+
+.victory-message {
+    animation: dubstepTitle 3s 1; /* Animation de 3s, qui s'exécute une seule fois */
+    font-weight: bold;
+}
+
+.victory-message-static {
+    font-weight: bold;
+    color: red; /* Couleur par défaut, vous pouvez changer si besoin */
+    font-size: 70px; /* Taille de police par défaut, peut être modifiée */
+}
+

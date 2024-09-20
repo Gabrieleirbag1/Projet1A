@@ -1,0 +1,20 @@
+
+Objectif :
+
+Forcer le joueur adverse à casser la case "A1", située en haut à gauche du plateau.
+
+
+
+Déroulement :
+
+Le plateau est une grille de carrés.
+Les joueurs jouent à tour de rôle.
+À chaque tour, un joueur choisit une case, et toutes les cases situées à droite et en dessous de celle-ci sont détruites.
+Le nombre de cases détruites ne peut pas dépasser 5.
+Le joueur qui casse la case "A1" perd la partie.
+
+
+
+Fin :
+
+Le jeu se termine lorsque la case "A1" est cassée. Celui qui la détruit perd.  

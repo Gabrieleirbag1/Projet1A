@@ -1,0 +1,92 @@
+.button-broken {
+    background: rgb(153, 153, 153);
+}
+
+.button-hover{background:rgb(81, 121, 255)}
+
+.button-wrong-hover{background:red;}
+
+.main-window {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    
+}
+
+
+.rules-button {
+    background: #717171;
+    border-width: 3px;
+    border-radius: 12px;
+    border: 3px solid #4d4d4d;
+    border-bottom: 7px double #4d4d4d;
+    border-right: 7px double #4d4d4d;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.restart-button {
+    background: transparent;
+    border-width: 3px;
+    border-radius: 12px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border: none;
+}
+
+.row-label {
+    margin-left: 10px;
+}
+
+.last-move {
+    background: rgb(255, 151, 151); /* Couleur rouge pour le dernier coup */
+}
+@keyframes dubstepTitle {
+    0% {
+        color: red;
+        font-size: 70px;
+    }
+    15% {
+        color: green;
+        font-size: 110px;
+    }
+    30% {
+        color: pink;
+        font-size: 90px;
+    }
+    45% {
+        color: blue;
+        font-size: 60px;
+    }
+    60% {
+        color: red;
+        font-size: 150px;
+    }
+    75% {
+        color: green;
+        font-size: 70px;
+    }
+    90% {
+        color: pink;
+        font-size: 150px;
+    }
+    100% {
+        color: blue;
+        font-size: 90px;
+    }
+}
+
+
+.victory-message {
+    animation: dubstepTitle 3s 1; /* Animation de 3s, qui s'exécute une seule fois */
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.victory-message-static {
+    font-weight: bold;
+    color: blue; /* Couleur par défaut, vous pouvez changer si besoin */
+    font-size: 90px; /* Taille de police par défaut, peut être modifiée */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

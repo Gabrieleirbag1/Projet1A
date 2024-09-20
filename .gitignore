@@ -1,0 +1,10 @@
+# Ignore build directory
+build/
+
+# Ignore docs directory
+docs/
+
+# Ignore logs file
+game_log_client.log
+game_log_local.log
+game_log_server.log

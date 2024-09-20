@@ -1,0 +1,20 @@
+
+Objective:
+
+Force the opposing player to break the ‘A1’ square at the top left of the board.
+
+
+
+Sequence:
+
+The board is a grid of squares.
+The players take it in turns to play.
+On each turn, a player chooses a square, and all the squares to the right of and below it are destroyed.
+The maximum number of squares destroyed is 5.
+The player who breaks the ‘A1’ square loses the game.
+
+
+
+The game ends:
+
+The game ends when square ‘A1’ is broken. The player who destroys it loses. 
