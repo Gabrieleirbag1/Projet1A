@@ -47,7 +47,7 @@ To start the server, use the `-s` option followed by the port (optional):
 To start the client, use the `-c` option followed by the server address and port:
 
 ```sh
-./game -c <server_address> <port>
+./game -c <server_address>:<port>
 ```
 
 ### Start in local mode
@@ -68,7 +68,7 @@ To enable AI mode, add the `-ia` option:
 ```
 #### In client mode
 ```sh
-./game -c <server_address> <port> -ia
+./game -c <server_address>:<port> -ia
 ```
 #### In local mode
 ```sh
